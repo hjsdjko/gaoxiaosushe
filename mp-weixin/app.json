@@ -1,0 +1,122 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/changepassword/changepassword",
+    "pages/center/center",
+    "pages/user-info/userinfo",
+    "pages/recharge/recharge",
+    "pages/baoxiu/list",
+    "pages/baoxiu/list2",
+    "pages/baoxiu/add-or-update",
+    "pages/baoxiu/detail",
+    "pages/exampapertopic/list",
+    "pages/exampapertopic/list2",
+    "pages/exampapertopic/add-or-update",
+    "pages/exampapertopic/detail",
+    "pages/fangke/list",
+    "pages/fangke/list2",
+    "pages/fangke/add-or-update",
+    "pages/fangke/detail",
+    "pages/fangwu/list",
+    "pages/fangwu/list2",
+    "pages/fangwu/add-or-update",
+    "pages/fangwu/detail",
+    "pages/fangwuCollection/list",
+    "pages/fangwuCollection/list2",
+    "pages/fangwuCollection/add-or-update",
+    "pages/fangwuCollection/detail",
+    "pages/fangwuRuzhu/list",
+    "pages/fangwuRuzhu/list2",
+    "pages/fangwuRuzhu/add-or-update",
+    "pages/fangwuRuzhu/detail",
+    "pages/fangwuTuisu/list",
+    "pages/fangwuTuisu/list2",
+    "pages/fangwuTuisu/add-or-update",
+    "pages/fangwuTuisu/detail",
+    "pages/fangwuYuyue/list",
+    "pages/fangwuYuyue/list2",
+    "pages/fangwuYuyue/add-or-update",
+    "pages/fangwuYuyue/detail",
+    "pages/jiaofei/list",
+    "pages/jiaofei/list2",
+    "pages/jiaofei/add-or-update",
+    "pages/jiaofei/detail",
+    "pages/liuyan/list",
+    "pages/liuyan/list2",
+    "pages/liuyan/add-or-update",
+    "pages/liuyan/detail",
+    "pages/susheguanliyuan/list",
+    "pages/susheguanliyuan/list2",
+    "pages/susheguanliyuan/add-or-update",
+    "pages/susheguanliyuan/detail",
+    "pages/tiaosushenqing/list",
+    "pages/tiaosushenqing/list2",
+    "pages/tiaosushenqing/add-or-update",
+    "pages/tiaosushenqing/detail",
+    "pages/weisheng/list",
+    "pages/weisheng/list2",
+    "pages/weisheng/add-or-update",
+    "pages/weisheng/detail",
+    "pages/yonghu/list",
+    "pages/yonghu/list2",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/exampaper/list",
+    "pages/exampaper/exam",
+    "pages/examrecord/list",
+    "pages/examrecord/detail",
+    "pages/examrewrongquestion/list",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "高校宿舍信息管理系统小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#fff",
+    "borderStyle": "black",
+    "backgroundColor": "#5FAED0",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/exampaper/list",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "试卷"
+      },
+      {
+        "pagePath": "pages/fangwu/list",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "公寓"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "小程序将使用定位功能"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "chooseLocation"
+  ],
+  "usingComponents": {}
+}
